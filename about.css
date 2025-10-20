@@ -25,29 +25,6 @@ body {
     padding: 0 20px;
 }
 
-/* Герой секция */
-.hero {
-    padding: 120px 0 80px;
-    text-align: center;
-    border-bottom: 1px solid #2a2a2a;
-}
-
-.hero h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    background: linear-gradient(135deg, #fff 0%, #a0a0a0 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.hero-subtitle {
-    font-size: 1.5rem;
-    color: var(--text-muted);
-    margin-bottom: 40px;
-}
-
-/* Секции */
 .section {
     padding: 80px 0;
     border-bottom: 1px solid #2a2a2a;
@@ -58,7 +35,7 @@ body {
 }
 
 .section-title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 40px;
     color: var(--text-light);
     position: relative;
@@ -86,6 +63,7 @@ body {
     padding: 30px;
     border-radius: 12px;
     border: 1px solid #2a2a2a;
+    font-size: 1.2rem;
     transition:
         transform 0.3s ease,
         border-color 0.3s ease;
@@ -97,7 +75,7 @@ body {
 }
 
 .card-title {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin-bottom: 20px;
     color: var(--accent);
 }
@@ -110,6 +88,7 @@ body {
     margin-bottom: 12px;
     padding-left: 20px;
     position: relative;
+    font-size: 1.2rem;
 }
 
 .info-list li::before {
@@ -136,7 +115,7 @@ body {
 .skill-category h4 {
     color: var(--accent);
     margin-bottom: 15px;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .skill-items {
@@ -148,7 +127,7 @@ body {
 .skill-item {
     padding: 8px 16px;
     border-radius: 20px;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     border: 2px solid var(--accent);
 }
 
